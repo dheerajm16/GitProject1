@@ -19,7 +19,7 @@ public:
 
 void shop ::set_price(void)
 {
-    cout << "Enter the Id of your item: " << endl;
+    cout << "Enter the Id of item: " << endl;
     cin >> item_id[counter];
     cout << "Enter the price of your item: " << endl;
     cin >> item_price[counter];
